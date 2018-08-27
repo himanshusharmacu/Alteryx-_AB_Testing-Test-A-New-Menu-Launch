@@ -5,7 +5,7 @@ A chain of coffee shops is considering launching a new menu. I have to design an
 
 * You're a business analyst for Round Roasters, a coffee restaurant in the United States of America. The executive team conducted a market test with a new menu and needs to figure whether the new menu can drive enough sales to offset the cost of marketing the new menu. Your job is to analyze the A/B test and write up a recommendation to whether the Round Roasters chain should launch this new menu.
 
-# The Business Problem
+## The Business Problem
 
 * Round Roasters is an upscale coffee chain with locations in the western United States of America. The past few years have resulted in stagnant growth at the coffee chain, and a new management team was put in place to reignite growth at their stores.
 
@@ -21,13 +21,13 @@ A chain of coffee shops is considering launching a new menu. I have to design an
 
 -> You’ve been asked to analyze the results of the experiment to determine whether the menu changes should be applied to all stores. The predicted impact to profitability should be enough to justify the increased marketing budget: at least 18% increase in profit growth compared to the comparative period while compared to the control stores; otherwise known as incremental lift. In the data, profit is represented in the gross_margin variable.
 
-# You have been able to gather three data files to use for your analysis:
+## You have been able to gather three data files to use for your analysis:
 
 * Transaction data for all stores from 2015-January-21 to 2016-August-18
 * A listing of all Round Roasters stores
 * A listing of the 10 stores (5 in each market) that were used as test markets.
 
-# Steps to Success
+## Steps to Success
 -> Step 1: Plan Your Analysis
 * To perform the correct analysis, you will need to prepare a data set. Prior to rolling up your sleeves and preparing the data, it’s a good idea to have a plan of what you need to do in order to prepare the correct data set. A good plan will help you with your analysis. Here are a few questions to get you started:
 
@@ -41,7 +41,7 @@ A chain of coffee shops is considering launching a new menu. I have to design an
 -> Step 3: Match Treatment and Control Units
 * In this step, you should create the trend and seasonality variables, and use them along with you other control variable(s) to match two control units to each treatment unit. Treatment stores should be matched to control stores in the same region. Note: Calculate the number of transactions per store per week and use 12 periods to calculate trend and seasonality.
 
-# Apart from trend and seasonality...
+## Apart from trend and seasonality...
 
 * What control variables should be considered? Note: Only consider variables in the RoundRoastersStore file.
 * What is the correlation between your each potential control variable and your performance metric? (Example of correlation matrix below)
